@@ -1179,14 +1179,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 95px;
 }
 
-
-#fh5co-work #myCarousel .carousel-inner {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-#fh5co-work #myCarousel .item {
+#fh5co-work #myCarousel .item .content-container {
   display: flex;
   justify-content: center;
 }
