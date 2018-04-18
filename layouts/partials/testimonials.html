@@ -11,19 +11,61 @@
 				</div>
 			</div>
 			<div class="row">
-			{{ range .Site.Params.testimonials.item }}
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<p>{{ .quote | markdownify}}</p>
-						</blockquote>
-						<div class="author to-animate">
-							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
-							<p>{{ .person | markdownify }}</p>
-						</div>
-					</div>
-				</div>
-			{{ end }}
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Column #1</th>
+							<th>Column #2</th>
+							<th>Column #3</th>
+							<th>Column #4</th>
+							<th>Column #5</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Feature #1</td>
+							<td>Feature #1</td>
+							<td>Feature #1</td>
+							<td>Feature #1</td>
+							<td>Feature #1</td>
+						</tr>
+						<tr>
+							<td>Feature #2</td>
+							<td>Feature #2</td>
+							<td>Feature #2</td>
+							<td>Feature #2</td>
+							<td>Feature #2</td>
+						</tr>
+						<tr>
+							<td>Feature #3</td>
+							<td>Feature #3</td>
+							<td>Feature #3</td>
+							<td>Feature #3</td>
+							<td>Feature #3</td>
+						</tr>
+						<tr>
+							<td>Feature #4</td>
+							<td>Feature #4</td>
+							<td>Feature #4</td>
+							<td>Feature #4</td>
+							<td>Feature #4</td>
+						</tr>
+						<tr>
+							<td>Feature #5</td>
+							<td>Feature #5</td>
+							<td>Feature #5</td>
+							<td>Feature #5</td>
+							<td>Feature #5</td>
+						</tr>
+						<tr>
+							<td>Feature #6</td>
+							<td>Feature #6</td>
+							<td>Feature #6</td>
+							<td>Feature #6</td>
+							<td>Feature #6</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</section>
