@@ -1159,8 +1159,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-work #myCarousel {
-  height: 500px;
+  height: 600px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 #fh5co-work #myCarousel .left.carousel-control,
@@ -1168,16 +1170,62 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: none;
 }
 
 #fh5co-work #myCarousel .left.carousel-control svg,
 #fh5co-work #myCarousel .right.carousel-control svg{
-  width: 50px;
-  height: 50px;
+  width: 95px;
+  height: 95px;
+}
+
+
+#fh5co-work #myCarousel .carousel-inner {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#fh5co-work #myCarousel .item {
+  display: flex;
+  justify-content: center;
 }
 
 #fh5co-work #myCarousel .item img{
-  width: 100%;
+  width: 350px;
+  height: 100%;
+  margin-right: 65px;
+}
+
+#fh5co-work #myCarousel .item .content h1 {
+  margin: 0;
+  font-weight: 200;
+  color: #20a9d3;
+}
+
+#fh5co-work #myCarousel .item .content h4 {
+  font-weight: 200;
+}
+
+#fh5co-work #myCarousel .item .content p{
+  color: #000;
+}
+
+#fh5co-work #myCarousel .item .content ul {
+  color: #000;
+  font-size: 1.3em;
+  padding-left: 30px;
+  margin-bottom: 25px;
+  list-style-image: url('../images/bullet.png');
+}
+
+#fh5co-work #myCarousel .item .content .btn.btn-primary {
+  background-color: #2cd7d1;
+  text-transform: initial;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 10px 40px;
 }
 
 .fh5co-person {
