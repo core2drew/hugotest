@@ -44,13 +44,19 @@ theme = "hugo-elate-theme"
   # Clients
   [params.clients]
     [[params.clients.item]]
-      img = "tedx.png"
+      img = "burberry.png"
+    [[params.clients.item]]
+      img = "sofitel.png"
+    [[params.clients.item]]
+      img = "mercedes.png"
+    [[params.clients.item]]
+      img = "pandora.png"
     [[params.clients.item]]
       img = "tedx.png"
     [[params.clients.item]]
-      img = "tedx.png"
+      img = "uber.png"
     [[params.clients.item]]
-      img = "tedx.png"
+      img = "redbull.png"
 
 
   # Counters section

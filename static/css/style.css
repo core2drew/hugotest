@@ -704,7 +704,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 40px;
 }
 
-#fh5co-about .container .row:nth-last-child(1) {
+#fh5co-about .container > .row:nth-last-child(1) {
   text-align:center;
   margin-top: 35px;
 }
@@ -807,6 +807,11 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-clients > .container > .row {
   display: flex;
   justify-content: center;
+}
+
+#fh5co-clients > .container > .row .client {
+  display: flex;
+  align-items: center;
 }
 
 #fh5co-counters {
@@ -1198,6 +1203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-work #myCarousel .item .content h4 {
   font-weight: 200;
+  margin-bottom: 20px;
 }
 
 #fh5co-work #myCarousel .item .content p{
@@ -1210,6 +1216,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 30px;
   margin-bottom: 25px;
   list-style-image: url('../images/bullet.png');
+}
+
+#fh5co-work #myCarousel .item .content ul li:nth-last-child(n + 2) {
+  margin-bottom: 10px;
 }
 
 #fh5co-work #myCarousel .item .content .btn.btn-primary {
